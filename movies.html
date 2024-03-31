@@ -30,6 +30,108 @@
             cursor: pointer;
 
         }
+        #box{
+            height:380px; 
+            background-color:black;
+            border-radius: 15px;
+           width: 20%;
+           border: 3px solid #73AD21;
+           box-shadow: 10px 10px 13px rgb(157, 149, 149);
+           
+        }
+        #boxb{
+            height:380px; 
+            background-color:black;
+            border-radius: 15px;
+           width: 20%;
+           border: 3px solid #73AD21;
+           box-shadow: 10px 10px 13px rgb(157, 149, 149);
+           
+        }
+        #boxc{
+            height:380px; 
+            background-color:black;
+            border-radius: 15px;
+           width: 20%;
+           border: 3px solid #73AD21;
+           box-shadow: 10px 10px 13px rgb(157, 149, 149);
+           
+        }
+        #boxd{
+            height:380px; 
+            background-color:black;
+            border-radius: 15px;
+           width: 20%;
+           border: 3px solid #73AD21;
+           box-shadow: 10px 10px 13px rgb(157, 149, 149);
+           
+        }
+        .box1{
+            
+            height:200px;
+            width:155px;
+            background-image:url("https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_xl_1516802409.webp");
+
+            background-size: cover;
+            margin:auto;
+            border-radius: 25px;
+           border: 3px solid #73AD21;
+            padding: 10px;
+            box-shadow: 10px 10px 13px red;
+        }
+        .box2{
+            height:200px;
+            width:155px;
+            background-image:url("https://i.scdn.co/image/ab6761610000e5ebe1e00861cdb6bf56b14a1118");
+
+            background-size: cover;
+            margin:auto;
+            border-radius: 25px;
+           border: 3px solid #73AD21;
+            padding: 10px;
+           box-shadow: 10px 10px 13px red;
+            
+        }
+        .box3{
+            height:200px;
+            width:155px;
+            background-image:url("https://img.mensxp.com/media/content/2023/May/arijit-singh2-header-image-Instagram_64707b13a0df8.jpeg");
+
+            background-size: cover;
+            margin:auto;
+          border-radius: 25px;
+           border: 3px solid #73AD21;
+            padding: 10px;
+            box-shadow: 10px 10px 13px red;
+            box-shadow: 10px 10px 13px red;
+        }
+        .box4{
+            height:200px;
+            width:155px;
+            background-image:url("https://i.pinimg.com/564x/07/f1/24/07f1244cd79d338f972cd704f9be258e.jpg");
+
+            background-size: cover;
+            margin:auto;
+          border-radius: 25px;
+           border: 3px solid #73AD21;
+            padding: 10px;
+            box-shadow: 10px 10px 13px red; 
+        }
+
+        
+        #container-song{
+            height:430px;
+            width:100%;
+           
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+        
+        
+        
+        
         
         </style>
 
@@ -72,7 +174,7 @@
         </select>
     </p>
    
-    <p id="sub">  &#8377;200/m or 1000/Y
+    <p id="sub">  &#8377; <del>250/m</del><ins>200/m</ins> or 1000/Y
         <button id="search">Subscribe</button>
 </div>
 
@@ -117,14 +219,47 @@
         <option > &#127926;others</option>
     </select>
    </p>
-   
-   <img src="https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_xl_1516802409.webp"width="300",height="200">
+   <div id="container-song">
+    <div id="box">
+        <br>
+        <div class="box1">
 
-   <img src="https://cdns-images.dzcdn.net/images/cover/93e3dbce0b5b31215fa36ac6d1d0162f/264x264.jpg"width="300",height="200">
-   <br>
-   <img src="https://c.saavncdn.com/884/Soulful-Voice-Arijit-Singh-2014-500x500.jpg"width="300"height="200">
-   
-   <img src="https://static.toiimg.com/thumb/msid-25934118,imgsize-136555,width-400,resizemode-4/25934118.jpg"width="300"height="200">
+        </div>
+        
+        <p style="color:white; text-align: center; margin:0px">YO YO HONEY SINGH</p>
+        <br>
+        <p style="color:white; text-align: center; ">King of bluetooth,Listen our legendary bluetooth king.</p>
+    </div>
+    <div id="boxb">
+        <br>
+        <div class="box2">
+          
+        </div>
+        <p style="color:white; text-align: center; margin:0px">DARSHAN RAVAL</p>
+        <br>
+        <p style="color:white; text-align: center; ">Darshan Raval (born 18 October 1994) is an Indian singer, composer, and songwriter. He is known for his work in Hindi, Gujarati, Punjabi and Bengali.</p>
+    </div>
+    <div id="boxc">
+        <br>
+        <div class="box3">
+            
+          
+        </div>
+        <p style="color:white; text-align: center; margin:0px">ARIJIT SINGH</p>
+        <br>
+        <p style="color:white; text-align: center; ">Arijit Singh (born 25 April 1987) is an Indian playback singer and music composer.</p>
+    </div>
+    <div id="boxd">
+        <br>
+        <div class="box4">
+          
+        </div>
+        <p style="color:white; text-align: center; margin:0px">IMRAN KHAN</p>
+        <br>
+        <p style="color:white; text-align: center; ">Imran Khan is a Dutch-Pakistani singer, songwriter, and rapper. He performs sings in both English and Punjabi. He first became known in 2007.</p>
+    </div>
+</div>
+  
 </div>
    <br>
    <hr color="red">
@@ -197,9 +332,4 @@ onclick="document.getElementById('demo').innerHTML = Date()" id="date">
     </div>
 </div>
 
-
-
-   
-
-<script src="first.js"></script>
 </html>
